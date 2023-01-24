@@ -4,15 +4,22 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 600px) {
-  h1 {
-    font-size: smaller;
-  }
-}
-
 body {
   margin-bottom: 0 auto;
   max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 60px !important;
+  }
+  h2 {
+    display: none;
+  }
+
+  h3 {
+    color: #6c63ff;
+  }
 }
 
 h1,
@@ -23,7 +30,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 90px;
 }
 
 h2 {
